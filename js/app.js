@@ -1,7 +1,6 @@
 import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js"
 import  { auth } from './firebase.js'
 
-// function loginUser() {
 
 const loginForm = 
           document.querySelector("#formLogin");
@@ -26,17 +25,4 @@ loginForm.addEventListener("submit", async (e) => {
   }
 })
 
-  // var email = document.getElementById("correo").value;
-  // var password = document.getElementById("contrasena").value;
-
-
-  // console.log(`Correo: ${email}, contraseña: ${password}`);
-
-  // auth.signInWithEmailAndPassword(email, password)
-  //   .then((success) => {
-  //     console.log('Succesfully signed in')
-  //   }).catch((error) => {
-  //     console.log('Error')
-  //   });
-// }
 
