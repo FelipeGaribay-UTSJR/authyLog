@@ -1,6 +1,5 @@
-import { createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
-import { auth } from './firebase.js';
-
+import { signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js"
+import  { auth } from './firebase.js'
 
 
 const loginForm = 
@@ -25,6 +24,7 @@ loginForm.addEventListener("submit", async (e) => {
     }
   }
 })
+
 // Agrega un evento al botón de cerrar sesión
 const cerrarSesionButton = document.querySelector("#cerrarSesionButton");
 
@@ -43,3 +43,4 @@ const cerrarSesion = async () => {
   }
 };
   
+
