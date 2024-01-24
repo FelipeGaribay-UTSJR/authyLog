@@ -26,7 +26,7 @@ const registroForm =
   }
 })
 
-// Agrega un evento al botón o enlace que activará el cierre de sesión
+// Agrega un evento al botón de cerrar sesión
 const cerrarSesionButton = document.querySelector("#cerrarSesionButton");
 
 cerrarSesionButton.addEventListener("click", () => {
@@ -43,5 +43,4 @@ const cerrarSesion = async () => {
     console.error("Error al cerrar la sesión:", error);
   }
 };
-
   
